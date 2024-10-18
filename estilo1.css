@@ -191,6 +191,7 @@ h1, h2, h3, h4, h5, h6, p{
 h1{
     font-size: 32px;
     text-shadow: 0 2px 0 #c1c9cb;
+    margin-bottom: 15px;
 }
 h2{
     font-size: 26px;
@@ -211,9 +212,11 @@ li a{
     width: 40%;
     height: 10px;
     padding: 10% 20%;
+    margin-left: 20px;
     color: #668428;
     text-decoration: none;
     overflow:hidden;
+    transition: 0,3s ease;
     /*Fondo con Gradiente*/
     background: -moz-linear-gradient(center top,#CDEB8E 0%, #A5C956 100%) repeat scroll 0
     0 transparent;
@@ -234,7 +237,7 @@ li a{
     }
 li a:hover{
 
-    width:60%;
+    transform: scale(1.1);
     /*Cambiar bordes en esquinas opuestas*/
     -moz-border-radius: 0 20px 0 20px;
     border-radius: 0 20px 0 20px;
@@ -248,6 +251,7 @@ li a:hover{
     -moz-box-shadow: 0px 6px 0 #336666;
     box-shadow: 0px 6px 0 #336666;
     -webkit-box-shadow: 0px 6px 0 #336666;
+    
 }
 li a:active{
     /*Efecto de movimiento*/
